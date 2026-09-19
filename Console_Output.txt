@@ -1,0 +1,124 @@
+
+===========================================================================
+  GOA SENSITIVITY ANALYSIS
+  K=[2  3  4  5  6  7] | T_B=[10  15  20  25  30  35  40] | NY=[5   8  10  12  15  20]
+  Functions: 3 | Runs: 15 | T_max: 500
+===========================================================================
+
+---------------------------------------------------------------------------
+  SENSITIVITY TO K (Gogessa count)
+  T_B=25 NY=10 fixed
+---------------------------------------------------------------------------
+
+  Rastrigin D=30:
+    K=2  | Mean=2.8148e+01 | Std=7.1372e+00
+    K=3  | Mean=2.8148e+01 | Std=7.1372e+00
+    K=4  | Mean=2.8148e+01 | Std=7.1372e+00
+    K=5  | Mean=2.8148e+01 | Std=7.1372e+00 ← default
+    K=6  | Mean=2.8148e+01 | Std=7.1372e+00
+    K=7  | Mean=2.8148e+01 | Std=7.1372e+00
+
+  Schwefel D=30:
+    K=2  | Mean=2.3306e+03 | Std=2.8320e+02
+    K=3  | Mean=2.3306e+03 | Std=2.8320e+02
+    K=4  | Mean=2.3306e+03 | Std=2.8320e+02
+    K=5  | Mean=2.3306e+03 | Std=2.8320e+02 ← default
+    K=6  | Mean=2.3306e+03 | Std=2.8320e+02
+    K=7  | Mean=2.3306e+03 | Std=2.8320e+02
+
+  SR-Rastrigin D=30:
+    K=2  | Mean=1.4930e+06 | Std=8.4325e+01
+    K=3  | Mean=1.4930e+06 | Std=8.4325e+01
+    K=4  | Mean=1.4930e+06 | Std=8.4325e+01
+    K=5  | Mean=1.4930e+06 | Std=8.4325e+01 ← default
+    K=6  | Mean=1.4930e+06 | Std=8.4325e+01
+    K=7  | Mean=1.4930e+06 | Std=8.4325e+01
+
+---------------------------------------------------------------------------
+  SENSITIVITY TO T_B (Butta period)
+  K=5 NY=10 fixed
+---------------------------------------------------------------------------
+
+  Rastrigin D=30:
+    T_B=10 | Mean=2.2743e+01 | Std=7.2373e+00
+    T_B=15 | Mean=2.5600e+01 | Std=7.4293e+00
+    T_B=20 | Mean=2.6923e+01 | Std=6.0062e+00
+    T_B=25 | Mean=2.8148e+01 | Std=7.1372e+00 ← default
+    T_B=30 | Mean=2.7825e+01 | Std=4.6903e+00
+    T_B=35 | Mean=2.7754e+01 | Std=4.8962e+00
+    T_B=40 | Mean=2.7850e+01 | Std=4.5863e+00
+
+  Schwefel D=30:
+    T_B=10 | Mean=2.0697e+03 | Std=2.9324e+02
+    T_B=15 | Mean=2.2942e+03 | Std=4.3994e+02
+    T_B=20 | Mean=2.2623e+03 | Std=2.7048e+02
+    T_B=25 | Mean=2.3306e+03 | Std=2.8320e+02 ← default
+    T_B=30 | Mean=2.0463e+03 | Std=2.6514e+02
+    T_B=35 | Mean=2.2963e+03 | Std=3.3249e+02
+    T_B=40 | Mean=2.2521e+03 | Std=3.6991e+02
+
+  SR-Rastrigin D=30:
+    T_B=10 | Mean=1.4931e+06 | Std=7.5584e+01
+    T_B=15 | Mean=1.4931e+06 | Std=8.3999e+01
+    T_B=20 | Mean=1.4931e+06 | Std=1.2324e+02
+    T_B=25 | Mean=1.4930e+06 | Std=8.4325e+01 ← default
+    T_B=30 | Mean=1.4930e+06 | Std=4.6755e+01
+    T_B=35 | Mean=1.4931e+06 | Std=1.0768e+02
+    T_B=40 | Mean=1.4931e+06 | Std=2.6257e+02
+
+---------------------------------------------------------------------------
+  SENSITIVITY TO NY (Yuba archive size)
+  K=5 T_B=25 fixed
+---------------------------------------------------------------------------
+
+  Rastrigin D=30:
+    NY=5  | Mean=2.4884e+01 | Std=5.0218e+00
+    NY=8  | Mean=2.8148e+01 | Std=7.1372e+00
+    NY=10 | Mean=2.8148e+01 | Std=7.1372e+00 ← default
+    NY=12 | Mean=2.8148e+01 | Std=7.1372e+00
+    NY=15 | Mean=2.8148e+01 | Std=7.1372e+00
+    NY=20 | Mean=2.8148e+01 | Std=7.1372e+00
+
+  Schwefel D=30:
+    NY=5  | Mean=2.3306e+03 | Std=2.8320e+02
+    NY=8  | Mean=2.3306e+03 | Std=2.8320e+02
+    NY=10 | Mean=2.3306e+03 | Std=2.8320e+02 ← default
+    NY=12 | Mean=2.3306e+03 | Std=2.8320e+02
+    NY=15 | Mean=2.3306e+03 | Std=2.8320e+02
+    NY=20 | Mean=2.3306e+03 | Std=2.8320e+02
+
+  SR-Rastrigin D=30:
+    NY=5  | Mean=1.4930e+06 | Std=8.4303e+01
+    NY=8  | Mean=1.4930e+06 | Std=8.4325e+01
+    NY=10 | Mean=1.4930e+06 | Std=8.4325e+01 ← default
+    NY=12 | Mean=1.4930e+06 | Std=8.4325e+01
+    NY=15 | Mean=1.4930e+06 | Std=8.4325e+01
+    NY=20 | Mean=1.4930e+06 | Std=8.4325e+01
+
+===========================================================================
+  Total: 41.3 min
+
+===========================================================================
+  SENSITIVITY SUMMARY (coefficient of variation)
+===========================================================================
+  Higher CV = GOA more sensitive to that parameter
+
+  Rastrigin D=30:
+    K  sensitivity: 0.0%
+    T_B sensitivity: 7.3%
+    NY sensitivity: 4.8%
+
+  Schwefel D=30:
+    K  sensitivity: 0.0%
+    T_B sensitivity: 5.2%
+    NY sensitivity: 0.0%
+
+  SR-Rastrigin D=30:
+    K  sensitivity: 0.0%
+    T_B sensitivity: 0.0%
+    NY sensitivity: 0.0%
+
+
+  Saved to: C:\GOA PROJECT\Results\Sensitivity Analysis
+  Sensitivity Analysis complete.
+
